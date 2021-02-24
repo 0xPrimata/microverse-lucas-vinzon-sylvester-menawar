@@ -14,6 +14,10 @@
   margin-right: 50px;
 }
 
+#img-caption {
+  font-size: 2.6rem;
+}
+
 li {
   margin-top: 20px;
   margin-left: 10px;
@@ -27,4 +31,27 @@ body {
   color: #333;
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media all and (max-width: 1280px){
+  #title {
+    font-size: 4rem;
+  }
+  #image{
+    max-width: 70%;
+  }
+  li {
+    font-size: 1.8rem;
+  }
+  body {
+    line-height: 1.7;
+  }
 }
